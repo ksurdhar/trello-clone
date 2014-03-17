@@ -14,7 +14,6 @@ Trellino.Routers.AppRouter = Backbone.Router.extend({
 		var view = new Trellino.Views.BoardsIndexView({
 			collection: Trellino.boards
 		});
-		// debugger
 		this._swapView(view);
 	},
 
@@ -24,7 +23,6 @@ Trellino.Routers.AppRouter = Backbone.Router.extend({
 			collection: Trellino.boards,
 			model: board
 		});
-
 		this._swapView(view);
 	},
 
